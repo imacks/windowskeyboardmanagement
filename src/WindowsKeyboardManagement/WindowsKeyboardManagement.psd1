@@ -14,7 +14,7 @@
     RootModule = 'WindowsKeyboardManagement.psm1'
 
     # Version number of this module.
-    ModuleVersion = '2.1.0'
+    ModuleVersion = '2.1.1'
 
     # ID used to uniquely identify this module
     GUID = '190f3cee-85d5-48d0-9152-31f8ca5d335a'
