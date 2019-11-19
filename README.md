@@ -1,3 +1,5 @@
+[![WKM](https://img.shields.io/powershellgallery/v/WindowsKeyboardManagement.svg?style=for-the-badge&label=WKM&logo=powershell)](https://www.powershellgallery.com/packages/WindowsKeyboardManagement)
+
 Windows Keyboard Management
 ===========================
 This PowerShell module allows the physical keyboard to be remapped. Works on Windows only.
@@ -55,7 +57,7 @@ PS C:\> logoff
 
 ```
 
-Now pressing "Scroll Lock" will immediately launch PowerShell. Yeah!
+Now pressing `Scroll Lock` will immediately launch PowerShell. Yeah!
 
 
 Installation
@@ -66,4 +68,4 @@ You can install right off Powershell Gallery:
 PS C:\> Install-Package WindowsKeyboardManagement
 ```
 
-To install manually, download the [latest release](./releases), unzip and copy `src/WindowsKeyboardManagement` to `%USERPROFILE%\Documents\WindowsPowerShell\Modules`.
+To install manually, download the [latest release](https://github.com/imacks/windowskeyboardmanagement/releases), unzip and copy `src/WindowsKeyboardManagement` to `%USERPROFILE%\Documents\WindowsPowerShell\Modules`.
